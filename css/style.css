@@ -1,0 +1,381 @@
+
+.parallax {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.whitebox {
+    position: absolute;
+    top: 151px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 42%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    position: absolute;
+    top: -150px;
+    right: 500px;
+}
+.whitebox2 {
+    position: absolute;
+    top: 1400px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+.caption2 {
+    position: absolute;
+    left: -50%;
+    top: -15%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption2 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.whitebox3 {
+    position: absolute;
+    top: 150px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+
+.scroll-box{
+  height:100px;
+  width: auto;
+  background-color: pink;
+  display: block;
+}
+
+#parall{
+  color: pink;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+
+
+.caption3 {
+    position: absolute;
+    left: -55%;
+    top: -20%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption3 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.whitebox3 {
+    position: absolute;
+    top: 150px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+
+
+.scroll-box2{
+  height:100px;
+  width: auto;
+  background-color: pink;
+  display: block;
+}
+
+#parall2{
+  color:pink;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+
+
+.caption4 {
+    position: absolute;
+    left: -3%;
+    top: 22%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption4 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.whitebox4 {
+    position: absolute;
+    top: 1300px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+.caption5 {
+    position: absolute;
+    left: -3%;
+    top: 22%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption5 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.whitebox5 {
+    position: absolute;
+    top: 150px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+.caption6 {
+    position: absolute;
+    left: -3%;
+    top: 180%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption6 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.whitebox6 {
+    position: absolute;
+    top: 1200px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+
+
+
+.scroll-box2{
+  height:100px;
+  width: auto;
+  background-color: pink;
+  display: block;
+}
+
+#parall2{
+  color:pink;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+#muffin {
+	position: relative;
+	top: -20px
+}
+
+#bgf {
+	font-family: 'Playfair Display', serif;
+	text-align: center
+}
+
+#bakgrund {
+	background-color: #ffccdd;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+}
+
+.caption7 {
+    position: absolute;
+    left: -3%;
+    top: 390%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption7 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.whitebox7 {
+    position: absolute;
+    top: 2600px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+
+.scroll-box3{
+  height:100px;
+  width: auto;
+  background-color: pink;
+  display: block;
+}
+
+#parall3{
+  color:pink;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+
+.caption8 {
+    position: absolute;
+    left: -3%;
+    top: 315%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption8 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.whitebox8 {
+    position: absolute;
+    top: 2100px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+.scroll-box4{
+  height:100px;
+  width: auto;
+  background-color: pink;
+  display: block;
+}
+
+#parall4{
+  color:pink;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.caption9 {
+    position: absolute;
+    left: -3%;
+    top: 413%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption9 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.whitebox9 {
+    position: absolute;
+    top: 2760px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+}
+
+.scroll-box5{
+  height:100px;
+  width: auto;
+  background-color: pink;
+  display: block;
+}
+
+
+#parall5{
+  color:pink;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}

@@ -1,0 +1,195 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/2.2.0/angularfire.min.js"></script>
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript">var sida = "Pajer/Tårtor"</script>
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>B.G.F</title>
+<link rel="icon" type="image/png" href="bilder/bgf.png">
+
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body ng-app="app">
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Bröd</a></li>
+                    <li><a href="menyval2.html">Kakor</a></li>
+                    <li><a href="menyval3.html">Pajer/Tårtor</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+<div class="whitebox5">
+  <div class="col-sm-6">
+    <h1>Ingredienser</h1>
+    <ul>
+      <li>100 g smör</li>
+      <li>1 dl socker</li>
+      <li>2 dl rena havregryn</li>
+      <li>1 dl mandelmjöl</li>
+      <li>Fyllning:</li>
+      <li>0,5 liter blåbär</li>
+      <li>0,5 liter hallon</li>
+      <li>1 dl socker</li>
+      <li>2 msk potatismjöl</li>
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <h1>Gör såhär:</h1>
+    <p>1. Sätt ugnen på 200 grader.
+2. Skär smöret i bitar. Nyp ihop smör, havregryn, mandelmjöl och socker till en smulig massa.
+3. Blanda alla ingredenser till fyllningen och lägg i en pajform på ca 20X25 cm.
+4. Fördela smulorna över fyllningen och grädda pajen mitt i ugnen 25-30 minuter, tills den fått fin färg.
+
+    </p>
+  </div>
+</div>
+
+<img src="bilder/paj.jpg" width="100%">
+
+<div class="caption5">
+    <span class="border">Smulpaj</span>
+</div>
+
+
+<div class="scroll-box">
+    <p id="parall">I dream of a world full of cookies, you know cookies wherever you go. so there wont be no need to go to the dark side.</p>
+</div>
+
+
+
+
+<img src="bilder/morotskaka.jpg" width="100%">
+
+<div class="whitebox6">
+  <div class="col-sm-6">
+
+    <h1>Ingredienser</h1>
+    <ul>
+      <li>2 1/2 dl crème fraiche</li>
+      <li>2 1/2 dl solrosolja</li>
+      <li>2 tsk bakpulver</li>
+      <li>2 dl farinsocker</li>
+      <li>200 g finrivna morötter</li>
+      <li>5 dl glutenfri mjölmix</li>
+      <li>4 ägg</li>
+      <li>glasyr;</li>
+      <li>100 g färskost</li>
+      <li>25 g rumsvarmt smör</li>
+      <li>2 dl florsocker</li>
+      <li>1 tsk riven morot</li>
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <h1>Gör såhär:</h1>
+    <p>1. Sätt ugnen på 150 grader. Smörj och bröa en rund form, ca 26 cm i diameter.
+
+2. Vispa ägg, crème fraiche och olja till en slät smet.
+
+3. Blanda de torra ingredienserna och sikta ner dem i ägg-smeten.
+
+4. Vänd ner morötterna i smeten.
+
+5. Häll smeten i formen. Grädda kakan mitt i ugnen i ca 1 tim och 15 min.
+
+6. Låt kakan svalna innan den stjälps upp.
+
+7. Glasyr: Vispa samman alla ingredienser till en slät glasyr.
+
+8. Bred glasyren över kakan när den svalnat helt. Toppa eventuellt med lite riven morot.
+
+    </p>
+  </div>
+</div>
+    <div class="caption6">
+    <span class="border">Morotskaka</span>
+    </div>
+
+<div class="scroll-box3">
+    <p id="parall">I dream of a world full of cookies, you know cookies wherever you go. so there wont be no need to go to the dark side.</p>
+</div>
+
+
+<img src="bilder/glassandwich.jpg" width="100%">
+
+<div class="whitebox7">
+  <div class="col-sm-6">
+    <h1>Ingredienser</h1>
+    <ul>
+      <li>3 ägg</li>
+      <li>1 dl strösocker</li>
+      <li>4/5 dl potatismjöl</li>
+      <li>2 msk kakao</li>
+      <li>1 tsk bakpulver</li>
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <h1>Gör såhär:</h1>
+    <p>Sätt ugnen på 250°C.
+Vispa ägg och fruktos/strösocker vitt och pösigt.
+Blanda potatismjöl med kakao och bakpulver. Sikta ner i smeten, rör om.
+Fördela smeten jämnt i en bakpappersklädd långpanna (30x40 cm, för 8 port). Grädda ca 5 minuter.
+Stjälp upp kakan på bakplåtspapper, dra av pappret som kakan gräddats på och låt kallna under en långpanna.
+Skär upp kakan i 10x6 cm bitar, placera en bit vaniljglass mellan två bitar och vips har du gjort din egen sandwich!
+
+    </p>
+  </div>
+</div>
+    <div class="caption7">
+    <span class="border">Glassandwich</span>
+    </div>
+
+
+
+<div ng-controller="KommentarCtrl">
+     <h2>Kommentarsfält</h2>
+     <div ng-repeat="kommentar in kommentarer">
+    <p><b>{{ kommentar.skribent }}</b> {{ kommentar.text }}</p>
+</div>
+<form ng-submit="addComment()">
+    <div class="form-group">
+        <input placeholder="Ditt namn" type="text" class="form-control" ng-model="kommentar.skribent">
+    </div>
+    <div class="form-group">
+        <input placeholder="Din kommentar" type="text" class="form-control" ng-model="kommentar.text">
+    </div>
+    <button type="submit" class="btn btn-primary">Kommentera</button>
+</form>
+</div>
+
+
+</body>
+</html>
